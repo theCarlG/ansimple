@@ -1,0 +1,17 @@
+[package]
+name = "ansimple"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-recursion = "1.0.5"
+clap = { version = "4.2.5", features = ["derive"] }
+regex = "1.8.1"
+serde = { version = "1.0.160", features = ["derive"] }
+serde_yaml = "0.9.21"
+ssh = "0.1.4"
+ssh2 = "0.9.4"
+tera = "1.18.1"
+tokio = { version = "1.28.0", features = ["full"] }
